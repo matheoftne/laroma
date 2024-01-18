@@ -1,0 +1,58 @@
+:root {
+    --font-main-title: 'Meraki', sans-serif;
+    --font-main-text: 'Lexend', sans-serif;
+    --text-size: 1.15rem;
+    --text-color: #fff;
+    --btn-color: #FBBA44;
+    --bg-color: #100B00;
+}
+
+.imgTeam {
+    width: 15rem;
+    height: 15rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10rem;
+}
+
+.teamInfosContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+#svgTeam {
+    position: absolute;
+    z-index: -1;
+    top: 62rem;
+    left: 0;
+}
+
+.TeamList {
+    margin: 15rem 0;
+}
+
+#lala1, #lala2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#lala1 {
+    gap: 4rem;
+}
+
+#lala2 {
+    gap: 12.5rem;
+}
+
+.teamName {
+    font-family: var(--font-main-title);
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--btn-color);
+}

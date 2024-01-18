@@ -1,0 +1,40 @@
+:root {
+    --font-main-title: 'Meraki', sans-serif;
+    --font-main-text: 'Lexend', sans-serif;
+    --text-size: 1.15rem;
+    --text-color: #fff;
+    --btn-color: #FBBA44;
+    --bg-color: #100B00;
+}
+
+#CarteDesConsos h2 {
+    font-family: var(--font-main-title);
+    font-weight: 100;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+#CarteDesConsos {
+    height: 170vh;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+#carte1Container {
+    background-position: center;
+    background-size: cover;
+    height: 750rem;
+    width: 60rem;
+}
+
+#carte2Container {
+    background-position: center;
+    background-size: cover;
+    height: 850rem;
+    width: 30rem;
+}

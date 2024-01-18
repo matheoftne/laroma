@@ -1,0 +1,98 @@
+:root {
+    --font-footer-title: 'Meraki', sans-serif;
+    --font-footer-text: 'Lexend', sans-serif;
+    --text-size: 1.15rem;
+    --text-color: #fff;
+    --btn-color: #FBBA44;
+    --bg-color: #100B00;
+}
+
+.footer {
+    background-color: var(--bg-color);
+}
+
+#footer__section__social > img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+#footer__section__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#socialMediaContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnSocialMedia {
+    color: #208481;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    transition: 0.2s ease-in-out;
+
+}
+
+.btnSocialMedia:hover {
+    color: #FBBA44;
+    transition: 0.2s ease-in-out;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 6rem;
+    color: var(--text-color);
+    text-transform: capitalize;
+}
+
+.footer__title {
+    font-family: var(--font-footer-title);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.footer__text {
+    font-family: var(--font-footer-text);
+    font-size: var(--text-size);
+}
+
+.footer__link {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    font-size: 1rem;
+}
+
+.footer__link:hover {
+    color: #FBBA44;
+    transition: 0.2s ease-in-out;
+}
+
+.footer__list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__list-item {
+    margin: 1rem 0rem;
+}
+
+#bandeYellow {
+    background-color: #FBBA44;
+    height: auto;
+}
+
+#bandeYellowText {
+    color: #100B00;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+}

@@ -1,0 +1,66 @@
+:root {
+    --font-footer-title: 'Meraki', sans-serif;
+    --font-footer-text: 'Lexend', sans-serif;
+    --text-size: 1.15rem;
+    --text-color: #fff;
+    --btn-color: #FBBA44;
+    --bg-color: #100B00;
+}
+
+#homeContent {
+    padding-bottom: 5rem;
+}
+
+#fondVerreVioletContainer {
+    width: auto;
+    height: 50rem;
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/fond-verre-violet.webp');
+    overflow: hidden;
+}
+
+#fondVerreVioletTextContainer {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+}
+
+#fondVerreVioletTextContainer > h1 {
+    font-family: var(--font-footer-title);
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 4.375rem;
+    width: 45rem;
+}
+
+
+#fondVerreVioletTextContainer > p {
+    font-family: var(--font-footer-text);
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: var(--text-size);
+    width: 45rem;
+}
+
+.btnMain2 {
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--btn-color);
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    font-family: var(--font-menu-title);
+    font-size: var(--text-size);
+    transition: 0.2s ease-in-out;
+    border: 1px solid #FBBA44;
+    margin-top: 1rem;
+}
+
+.btnMain2:hover {
+    background-color: transparent;
+    color: #FBBA44;
+    transition: 0.2s ease-in-out;
+    border: 1px #FBBA44 solid;
+    cursor: pointer;
+}

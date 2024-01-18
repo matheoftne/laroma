@@ -1,0 +1,54 @@
+:root {
+    --font-footer-title: 'Meraki', sans-serif;
+    --font-footer-text: 'Lexend', sans-serif;
+    --text-size: 1.15rem;
+    --text-color: #fff;
+    --btn-color: #FBBA44;
+    --bg-color: #100B00;
+}
+
+#descTextContainer {
+    position: absolute;
+    top: 58rem;
+    left: 73rem;
+    width: 25%;
+    color: var(--text-color);
+}
+
+#descTextContainer > h2 {
+    font-family: var(--font-footer-title);
+    font-weight: 500;
+    font-size: 2.1875rem;
+}
+
+.imgDescContainer {
+    width: 28rem;
+    height: 15rem;
+    border-radius: 1rem;
+    position: absolute;
+}
+
+#imgDescContainer1 {
+    top: 58rem;
+    left: 5rem;
+    background-size: cover;
+    background-image: url('../../assets/images/cocktail.webp');
+}
+
+#imgDescContainer2 {
+    top: 58rem;
+    left: 35rem;
+    background-size: cover;
+    background-image: url('../../assets/images/friends.webp');
+}
+
+#imgDescContainer3 {
+    top: 74rem;
+    left: 20rem;
+    background-size: cover;
+    background-image: url('../../assets/images/barman.webp');
+}
+
+#descContainer svg {
+    overflow-y: hidden;
+}

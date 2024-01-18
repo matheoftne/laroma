@@ -1,0 +1,8 @@
+:root {
+    --font-footer-title: 'Meraki', sans-serif;
+    --font-footer-text: 'Lexend', sans-serif;
+    --text-size: 1.15rem;
+    --text-color: #fff;
+    --btn-color: #FBBA44;
+    --bg-color: #100B00;
+}

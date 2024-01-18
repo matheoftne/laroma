@@ -1,0 +1,79 @@
+:root {
+    --font-main-title: 'Meraki', sans-serif;
+    --font-main-text: 'Lexend', sans-serif;
+    --text-size: 1.15rem;
+    --text-color: #fff;
+    --btn-color: #FBBA44;
+    --bg-color: #100B00;
+}
+
+#NosProduits {
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+#NosProduits h1 {
+    font-family: var(--font-main-title);
+    font-weight: 100;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+#NosProduits h2 {
+    font-family: var(--font-main-title);
+    font-weight: 100;
+    font-size: 2.5rem;
+    color: var(--btn-color);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#NosProduits p {
+    font-family: var(--font-main-text);
+    font-weight: 100;
+    font-size: var(--font-main-text);
+    color: #fff;
+    text-align: center;
+    width: 100rem;
+}
+
+.produitContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    gap: 1rem;
+}
+
+.imgProduitContainer {
+    background-position: center;
+    background-size: cover;
+    width: 55.6875rem;
+    height: 37.125rem;
+    border-radius: 7.375rem;
+}
+
+.imgProduitExtraContainer1, .imgProduitExtraContainer2 {
+    position: absolute;
+    z-index: -1;
+    width: 27.25rem;
+    height: 27.25rem;
+    border-radius: 4.375rem;
+}
+
+.imgProduitExtraContainer2 {
+    left: 0rem;
+    top: 4rem;
+}
+
+.imgProduitExtraContainer1 {
+    right: 0rem;
+    top: 4rem;
+}

@@ -1,0 +1,92 @@
+:root {
+    --font-main-title: 'Meraki', sans-serif;
+    --font-main-text: 'Lexend', sans-serif;
+    --text-size: 1.15rem;
+    --text-color: #fff;
+    --btn-color: #FBBA44;
+    --bg-color: #100B00;
+}
+
+#AProposContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    gap: 4rem;
+}
+
+#AProposContainer {
+    padding: 14rem 8rem;
+}
+
+#bulleYellow {
+    background-color: var(--btn-color);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 2rem 2rem 2rem 0rem;
+}
+
+#imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+#imgTeamContainer {
+    background-position: center;
+    background-size: cover;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10rem 10rem 0rem 10rem;
+}
+
+#AProposTextContainer {
+    color: #fff;
+}
+
+#AProposTextContainer h1 {
+    font-family: var(--font-main-title);
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.textAPropos {
+    font-family: var(--font-main-text);
+    font-size: var(--text-size);
+    width: 40rem
+}
+
+#AProposContent svg {
+    position: absolute;
+    z-index: -1;
+    top: 10rem;
+}
+
+#storyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#storyText {
+    color: #fff;
+    background-color: var(--btn-color);
+    height: 36rem;
+    padding: 2rem 4rem;
+}
+
+#storyText h2 {
+    font-family: var(--font-main-title);
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+#storyImgBar {
+    width: 90rem;
+    height: 40rem;
+    background-position: 20%;
+    background-size: cover;
+}

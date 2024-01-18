@@ -1,0 +1,75 @@
+:root {
+    --font-menu-title: 'Meraki', sans-serif;
+    --text-size: 1.15rem;
+    --text-color: #fff;
+    --btn-color: #FBBA44;
+    --bg-color: #100B00;
+}
+
+#headerContainer {
+    position: fixed;
+    z-index: 99;
+    background-color: #100B00;
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+#header > img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.btnHeaderMenu {
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 1rem;
+    padding: 1rem;
+    font-family: var(--font-menu-title);
+    font-size: var(--text-size);
+    transition: 0.2s;
+}
+
+.btnHeaderMenu:hover {
+    transition: 0.2s ease-in;
+    color: #FBBA44;
+}
+
+.btnMain {
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--btn-color);
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    font-family: var(--font-menu-title);
+    font-size: var(--text-size);
+    transition: 0.2s ease-in-out;
+    border: 1px solid #FBBA44;
+}
+
+.btnMain:hover {
+    background-color: #100B00;
+    color: #FBBA44;
+    transition: 0.2s ease-in-out;
+    border: 1px #FBBA44 solid;
+}
+
+@media screen and (max-width: 1240px) {
+    #header {
+        padding: 1rem 1rem;
+    }
+
+    .btnHeaderMenu {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+    
+}

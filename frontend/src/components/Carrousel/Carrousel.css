@@ -1,0 +1,113 @@
+:root {
+    --font-main-title: 'Meraki', sans-serif;
+    --font-main-text: 'Lexend', sans-serif;
+    --text-size: 1.15rem;
+    --text-color: #fff;
+    --btn-color: #FBBA44;
+    --bg-color: #100B00;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem; /* Ajustez la hauteur selon vos besoins */
+    width: 120rem;
+  }
+  
+  .slides {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform 0.5s ease;
+    text-align: center;
+  }
+  
+  .slide {
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 60rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    transition: transform 0.5s ease, width 1.5s ease, height 2.5s ease;
+    color: transparent;
+    filter: blur(2px);
+  }
+  
+  .slide.active {
+    transform: scale(1.4);
+    transition: transform 0.5s ease, width 1.5s ease, height 2.5s ease;
+    filter: blur(0px);
+    position: relative;
+    z-index: 1;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.2s ease-in;
+    z-index: 10;
+  }
+
+  .prev:hover,
+    .next:hover {
+        color: #FBBA44;
+        transition: 0.2s ease-in;
+    }
+  
+  .prev {
+    left: 10rem;
+  }
+  
+  .next {
+    right: 10rem;
+  }
+
+.slide-content {
+    margin-top: 3rem;
+}
+
+.slide-content > p {
+    font-family: var(--font-main-text);
+    font-size: 0.8rem;
+    color: var(--text-color);
+    text-align: center;
+    width: 16rem;
+    text-shadow: 2px 1px 2px #100B00;
+}
+
+.slide-content > h4 {
+    font-family: var(--font-main-title);
+    color: var(--text-color);
+    position: relative;
+    z-index: 100;
+    text-shadow: 2px 1px 2px #100B00;
+}
+
+#Carrousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12rem 0;
+
+}
+
+#Carrousel > h2 {
+    font-family: var(--font-main-title);
+    font-size: 2.1875rem;
+    color: var(--text-color);
+    text-shadow: 2px 1px 2px #100B00;
+    font-weight: 100;
+}
